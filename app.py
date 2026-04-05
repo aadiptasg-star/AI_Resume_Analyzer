@@ -17,7 +17,7 @@ if uploaded_file:
 
 from google import genai
 
-client = genai.Client(api_key="AIzaSyADndzANmq4FyjbRtrnZWeQo78cyWGqCOU")
+client = genai.Client(api_key="")
 
 if uploaded_file:
     prompt = f"""
